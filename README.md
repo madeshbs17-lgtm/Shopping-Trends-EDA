@@ -2,20 +2,20 @@
 
 ## 📌 Project Overview
 
-This project performs **Exploratory Data Analysis (EDA)** on a Shopping Trends dataset to uncover customer purchasing behavior, identify meaningful patterns, and generate business insights using Python.
+This project performs **Exploratory Data Analysis (EDA)** on a shopping trends dataset using **Python**. The analysis focuses on understanding the dataset, exploring customer demographics, analyzing purchasing behavior, and identifying patterns through data visualization.
 
-The analysis includes data cleaning, descriptive statistics, visualizations, and trend analysis to better understand customer demographics, purchasing habits, seasonal preferences, and shopping behavior.
+The project demonstrates essential data analysis techniques such as data inspection, data quality checks, statistical summaries, and visualization using popular Python libraries.
 
 ---
 
 ## 🎯 Objectives
 
-- Understand the structure of the dataset
+- Understand the structure of the shopping trends dataset
+- Perform data quality checks
 - Explore customer demographics
-- Analyze purchasing behavior
-- Identify seasonal shopping trends
-- Visualize important patterns
-- Generate business insights from the data
+- Analyze customer purchasing behavior
+- Visualize shopping trends using Python
+- Identify meaningful patterns in customer data
 
 ---
 
@@ -27,22 +27,22 @@ The dataset contains customer shopping information, including:
 - Gender
 - Item Purchased
 - Category
-- Purchase Amount
+- Purchase Amount (USD)
 - Location
 - Season
 - Subscription Status
 - Payment Method
 - Shipping Type
-- Review Rating
 - Discount Applied
 - Promo Code Used
 - Previous Purchases
 - Preferred Payment Method
 - Frequency of Purchases
+- Review Rating
 
-Dataset file:
+Dataset Location:
 
-```
+```text
 data/shopping_trends.csv
 ```
 
@@ -55,13 +55,13 @@ data/shopping_trends.csv
 - NumPy
 - Matplotlib
 - Seaborn
-- Jupyter Notebook
+- Google co
 
 ---
 
 ## 📁 Project Structure
 
-```
+```text
 Shopping-Trends-EDA/
 │
 ├── data/
@@ -70,56 +70,41 @@ Shopping-Trends-EDA/
 ├── notebook/
 │   └── Shopping_Trends.ipynb
 │
-├── images/
-│
 ├── README.md
 └── requirements.txt
 ```
 
 ---
 
-## 📊 Exploratory Data Analysis Performed
+## 📊 Exploratory Data Analysis
 
-### Data Understanding
+The analysis includes:
 
-- Dataset Shape
+- Dataset Overview
 - Dataset Information
-- Data Types
-- Missing Values
-- Duplicate Records
-
-### Data Exploration
-
+- Data Type Inspection
+- Missing Value Analysis
+- Duplicate Record Check
 - Descriptive Statistics
-- Unique Value Analysis
-- Distribution Analysis
-- Category-wise Analysis
-
-### Visualizations
-
-The project includes multiple visualizations such as:
-
-- Customer Age Distribution
-- Gender Distribution
-- Purchase Amount Analysis
-- Product Category Distribution
-- Seasonal Purchase Trends
-- Subscription Status Analysis
-- Payment Method Distribution
-- Review Rating Analysis
+- Customer Demographic Analysis
+- Purchase Behavior Analysis
+- Product Category Analysis
+- Seasonal Trend Analysis
+- Payment Method Analysis
+- Data Visualization using Matplotlib & Seaborn
 
 ---
 
 ## 🔍 Key Insights
 
-Some important observations from the analysis include:
-
-- Customer purchasing patterns vary across different product categories.
-- Seasonal trends influence shopping behavior.
-- Subscription status impacts customer purchases.
-- Purchase amounts differ across customer groups.
-- Payment preferences vary among customers.
-- Demographic information helps identify customer segments.
+- The dataset contains **3,900 customer records** with **19 features**.
+- The dataset contains **no missing values** and **no duplicate records**, making it suitable for analysis without additional preprocessing.
+- **Clothing** is one of the most frequently purchased product categories.
+- Customer purchases vary across different seasons, highlighting seasonal shopping patterns.
+- The dataset contains both **subscriber** and **non-subscriber** customers, allowing comparison of purchasing behavior.
+- The average customer age is approximately **44 years**.
+- Multiple payment methods are used by customers, including Credit Card, Debit Card, PayPal, Venmo, and Cash.
+- Data visualizations help identify purchasing patterns across customer demographics and shopping preferences.
 
 ---
 
@@ -128,7 +113,7 @@ Some important observations from the analysis include:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Shopping-Trends-EDA.git
+git clone https://github.com/madeshbs17-lgtm/Shopping-Trends-EDA.git
 ```
 
 ### Navigate to the project
@@ -151,47 +136,25 @@ jupyter notebook
 
 Open:
 
-```
+```text
 notebook/Shopping_Trends.ipynb
-```
-
----
-
-## 📷 Sample Visualizations
-
-*(You can add your saved graphs here later.)*
-
-Example:
-
-```markdown
-![Age Distribution](images/age_distribution.png)
-
-![Purchase by Category](images/category_purchase.png)
 ```
 
 ---
 
 ## 📈 Future Improvements
 
-- Perform Feature Engineering
-- Build Customer Segmentation Models
-- Develop Purchase Prediction Models
-- Create an Interactive Dashboard using Plotly or Streamlit
-- Apply Machine Learning Algorithms
-
----
-
-## 🤝 Contributing
-
-Suggestions and improvements are always welcome.
-
-If you'd like to improve this project, feel free to fork the repository and submit a pull request.
+- Perform feature engineering
+- Build customer segmentation models
+- Develop purchase prediction models
+- Create interactive dashboards using Plotly or Streamlit
+- Apply machine learning algorithms for predictive analysis
 
 ---
 
 ## 👨‍💻 Author
 
-**Madesh B S**
+**Madesh B**
 
 Aspiring AI & Machine Learning Engineer
 
