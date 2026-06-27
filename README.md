@@ -172,7 +172,7 @@ notebook/Shopping_Trends.ipynb
 
 ## 👨‍💻 Author
 
-**Madesh B S**
+**Madesh B**
 
 Aspiring AI & Machine Learning Engineer
 
